@@ -2,7 +2,9 @@
 
 > 📊 动态查看所有可用的 Claude Code Skills - 一个 skill 管理/发现工具
 
+[![npm version](https://badge.fury.io/js/claude-skills-list.svg)](https://www.npmjs.com/package/claude-skills-list)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-Ming--H/skills--list-blue)](https://github.com/Ming-H/skills-list)
 
 ## 功能
 
@@ -21,7 +23,17 @@
 
 ## 安装
 
-### 方式 1: curl 一键安装（推荐）
+### 方式 1: npm 安装（推荐）
+
+```bash
+# 项目级安装
+npm install claude-skills-list
+
+# 全局安装（所有项目可用）
+npm install -g claude-skills-list
+```
+
+### 方式 2: curl 一键安装
 
 **项目级安装**（仅当前项目可用）：
 ```bash
@@ -33,7 +45,7 @@ curl -sSL https://raw.githubusercontent.com/Ming-H/skills-list/main/install.sh |
 curl -sSL https://raw.githubusercontent.com/Ming-H/skills-list/main/install.sh | bash -s -- --global
 ```
 
-### 方式 2: 手动复制
+### 方式 3: 手动复制
 
 **项目级**：
 ```bash
@@ -47,7 +59,7 @@ mkdir -p ~/.claude/skills
 curl -o ~/.claude/skills/skills-list.md https://raw.githubusercontent.com/Ming-H/skills-list/main/SKILL.md
 ```
 
-### 方式 3: 使用 skillset 工具
+### 方式 4: 使用 skillset 工具
 
 ```bash
 skillset install Ming-H/skills-list

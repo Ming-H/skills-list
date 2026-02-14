@@ -1,0 +1,11 @@
+# Development files
+.git
+.gitignore
+examples/
+
+# Shell script (not needed for npm)
+install.sh
+
+# Development config
+.DS_Store
+*.log
