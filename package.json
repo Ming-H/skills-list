@@ -1,6 +1,6 @@
 {
   "name": "claude-skills-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Claude Code skill to dynamically list all available skills from multiple sources",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,9 @@
   "homepage": "https://github.com/Ming-H/skills-list#readme",
   "files": [
     "SKILL.md",
+    "index.js",
     "install.js",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ]
 }
